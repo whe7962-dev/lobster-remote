@@ -1,0 +1,12 @@
+腾讯会议官方 tmeet
+版本：1.0.19
+来源：https://github.com/TencentCloud/tencentmeeting-cli
+官方 npm 包：@tencentcloud/tmeet
+授权：MIT，许可证位于 bin/TENCENT-LICENSE.txt。
+本包附带 Mac Apple Silicon、Mac Intel、Windows x86_64 可执行文件，便于无需另装 Node.js 即可运行。
+
+浏览器执行依赖：Playwright Python 1.60.0
+来源：https://playwright.dev/python/
+首次启动通过 Python 官方包仓库安装，使用已安装的 Chrome（Mac）或 Edge（Windows）。
+
+本地账号凭据不随交付 ZIP 分发。腾讯官方授权可能包含较广的会议数据权限，由使用者在官方页面核对并授权。

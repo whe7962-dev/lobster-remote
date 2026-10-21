@@ -1,0 +1,17 @@
+.venv/
+.local-auth/
+runtime/
+tools/node_modules/
+__pycache__/
+config.json
+.DS_Store
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite3*
+验收-会议入会结束.png
+验收-关闭功能.png
+验收-遥控台.png
+验收-数据看板.png

@@ -1,0 +1,14 @@
+项目名称：龙虾遥控台 · Lobster Remote
+项目简介与最新能力请先阅读 README.md。
+
+龙虾遥控台最小 Demo
+
+1. 双击“开始使用.html”阅读启动说明。
+2. Mac 双击“启动Mac.command”；Windows 双击“启动Windows.bat”。
+3. 手机与电脑连接同一 Wi-Fi，按启动窗口中的地址和配对码连接。
+4. 会议需要独立授权，使用相应“授权腾讯会议”脚本。
+5. 文档在 static 文件夹，可用浏览器打开，也可打印成 PDF。
+
+真实执行；不预置模拟成功记录。Windows 待真机验证。录屏由用户完成。
+
+只发送打包好的 ZIP，不要发送 .local-auth 或 runtime 目录。

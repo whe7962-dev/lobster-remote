@@ -1,0 +1,70 @@
+{
+  "日期": "2026-10-21",
+  "环境": "Mac",
+  "说明": "不含账号信息、会议号、会议邀请链接或配对凭据；所有记录来自真实测试。",
+  "结果": [
+    {
+      "场景": "meeting_create",
+      "状态": "succeeded",
+      "执行耗时秒": 3.22,
+      "验证方式": "official_api",
+      "会议号回查一致": true,
+      "视频开始进度": null,
+      "视频结束进度": null,
+      "错误类型": null
+    },
+    {
+      "场景": "meeting_join",
+      "状态": "failed",
+      "执行耗时秒": null,
+      "验证方式": null,
+      "会议号回查一致": null,
+      "视频开始进度": null,
+      "视频结束进度": null,
+      "错误类型": "invalid_meeting_code"
+    },
+    {
+      "场景": "movie",
+      "状态": "succeeded",
+      "执行耗时秒": 15.35,
+      "验证方式": "media_clock",
+      "会议号回查一致": null,
+      "视频开始进度": 0.002444,
+      "视频结束进度": 1.784285,
+      "错误类型": null
+    }
+  ],
+  "close_feature": {
+    "date": "2026-10-21",
+    "regression_tests": 18,
+    "mac_live_video_close": "page_closed",
+    "mac_live_meeting_cancel": "official_cancel_receipt",
+    "successful_closures": 2,
+    "ongoing_meeting_dismiss": "not_implemented_use_client",
+    "windows_close": "not_tested"
+  },
+  "meeting_lifecycle": {
+    "date": "2026-10-21",
+    "environment": "Mac",
+    "regression_tests": 28,
+    "create": "official_api",
+    "join": "official_participant_and_meeting_state",
+    "end": "official_ended_state",
+    "end_observed_at": "2026-10-21T23:54:20+08:00",
+    "client_actions": "manual_by_user_choice",
+    "automatic_end": false,
+    "dismiss_api_available": false,
+    "windows": "not_tested",
+    "phone_cross_device": "not_tested"
+  },
+  "natural_language_close": {
+    "date": "2026-10-22",
+    "environment": "Mac",
+    "input": "关闭",
+    "task_id": "48c068d871a4",
+    "verification": "page_closed",
+    "used_close_button": false,
+    "regression_tests": 33,
+    "observed_at": "2026-10-22T00:11:53+08:00"
+  }
+}
